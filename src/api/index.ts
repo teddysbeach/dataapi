@@ -17,9 +17,11 @@ import { TaxReturnResultTotalSessionRequest, TaxReturnResultTotalSessionResponse
 import { ReportedCompensationSession } from "./kcomwel/ReportedCompensationSession";
 import { ReportedCompensationSessionRequest, ReportedCompensationSessionResponse } from "./kcomwel/ReportedCompensationSession/types";
 
-
 import { EmploymentInfoSession } from "./kcomwel/EmploymentInfoSession";
 import { EmploymentInfoSessionRequest, EmploymentInfoSessionResponse } from "./kcomwel/EmploymentInfoSession/types";
+
+import { SearchAdminno } from "./kcomwel/SearchAdminno";
+import { SearchAdminnoRequest, SearchAdminnoResponse } from "./kcomwel/SearchAdminno/types";
 
 export { 
     endpoints, 
@@ -33,6 +35,7 @@ export {
     LoginSessionSimpleKComwel,
     EmploymentInfoSession,
     ReportedCompensationSession,
+    SearchAdminno,
 
     /* Captcha */
     Captcha
@@ -52,6 +55,8 @@ export type {
     EmploymentInfoSessionResponse,
     ReportedCompensationSessionRequest,
     ReportedCompensationSessionResponse,
+    SearchAdminnoRequest,
+    SearchAdminnoResponse,
 
     /* Captcha */
     CaptchaRequest,

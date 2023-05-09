@@ -13,6 +13,8 @@ import { ReportedCompensationSession } from "./kcomwel/ReportedCompensationSessi
 import { ReportedCompensationSessionRequest, ReportedCompensationSessionResponse } from "./kcomwel/ReportedCompensationSession/types";
 import { EmploymentInfoSession } from "./kcomwel/EmploymentInfoSession";
 import { EmploymentInfoSessionRequest, EmploymentInfoSessionResponse } from "./kcomwel/EmploymentInfoSession/types";
-export { endpoints, DataAPICrypto, LoginSessionSimpleHomeTax, TaxReturnResultTotalSession, LoginSessionSimpleKComwel, EmploymentInfoSession, ReportedCompensationSession, Captcha };
-export type { LoginSessionSimpleHomeTaxRequest, LoginSessionSimpleHomeTaxResponse, TaxReturnResultTotalSessionRequest, TaxReturnResultTotalSessionResponse, LoginSessionSimpleKComwelRequest, LoginSessionSimpleKComwelResponse, EmploymentInfoSessionRequest, EmploymentInfoSessionResponse, ReportedCompensationSessionRequest, ReportedCompensationSessionResponse, CaptchaRequest, CaptchaResponse, CaptchaResponseData, };
+import { SearchAdminno } from "./kcomwel/SearchAdminno";
+import { SearchAdminnoRequest, SearchAdminnoResponse } from "./kcomwel/SearchAdminno/types";
+export { endpoints, DataAPICrypto, LoginSessionSimpleHomeTax, TaxReturnResultTotalSession, LoginSessionSimpleKComwel, EmploymentInfoSession, ReportedCompensationSession, SearchAdminno, Captcha };
+export type { LoginSessionSimpleHomeTaxRequest, LoginSessionSimpleHomeTaxResponse, TaxReturnResultTotalSessionRequest, TaxReturnResultTotalSessionResponse, LoginSessionSimpleKComwelRequest, LoginSessionSimpleKComwelResponse, EmploymentInfoSessionRequest, EmploymentInfoSessionResponse, ReportedCompensationSessionRequest, ReportedCompensationSessionResponse, SearchAdminnoRequest, SearchAdminnoResponse, CaptchaRequest, CaptchaResponse, CaptchaResponseData, };
 export default DataAPIRequest;

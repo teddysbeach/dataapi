@@ -6,6 +6,8 @@ exports.endpoints = {
     LoginSessionSimpleKComwel: '/scrap/corpTax/kcomwel/LoginSessionSimple',
     EmploymentInfoSession: '/scrap/corpTax/kcomwel/EmploymentInfoSession',
     ReportedCompensationSession: '/scrap/corpTax/kcomwel/ReportedCompensationSession',
+    SearchAdminno: '/scrap/corpTax/kcomwel/SearchAdminno',
+    SearchAdminnoBranch: '/scrap/corpTax/kcomwel/SearchAdminnoBranch',
     // HomeTax
     LoginSessionSimpleHomeTax: '/scrap/common/hometax/LoginSessionSimple',
     TaxReturnResultTotalSession: '/scrap/common/hometax/TaxReturnResultTotalSession',

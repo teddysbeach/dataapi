@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Captcha = exports.ReportedCompensationSession = exports.EmploymentInfoSession = exports.LoginSessionSimpleKComwel = exports.TaxReturnResultTotalSession = exports.LoginSessionSimpleHomeTax = exports.DataAPICrypto = exports.endpoints = void 0;
+exports.Captcha = exports.SearchAdminno = exports.ReportedCompensationSession = exports.EmploymentInfoSession = exports.LoginSessionSimpleKComwel = exports.TaxReturnResultTotalSession = exports.LoginSessionSimpleHomeTax = exports.DataAPICrypto = exports.endpoints = void 0;
 const endpoints_1 = require("./endpoints");
 Object.defineProperty(exports, "endpoints", { enumerable: true, get: function () { return endpoints_1.endpoints; } });
 const crypt_1 = require("../utils/crypt");
@@ -18,4 +18,6 @@ const ReportedCompensationSession_1 = require("./kcomwel/ReportedCompensationSes
 Object.defineProperty(exports, "ReportedCompensationSession", { enumerable: true, get: function () { return ReportedCompensationSession_1.ReportedCompensationSession; } });
 const EmploymentInfoSession_1 = require("./kcomwel/EmploymentInfoSession");
 Object.defineProperty(exports, "EmploymentInfoSession", { enumerable: true, get: function () { return EmploymentInfoSession_1.EmploymentInfoSession; } });
+const SearchAdminno_1 = require("./kcomwel/SearchAdminno");
+Object.defineProperty(exports, "SearchAdminno", { enumerable: true, get: function () { return SearchAdminno_1.SearchAdminno; } });
 exports.default = request_1.DataAPIRequest;
