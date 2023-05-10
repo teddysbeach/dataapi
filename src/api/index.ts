@@ -22,6 +22,7 @@ import { EmploymentInfoSessionRequest, EmploymentInfoSessionResponse } from "./k
 
 import { SearchAdminno } from "./kcomwel/SearchAdminno";
 import { SearchAdminnoRequest, SearchAdminnoResponse } from "./kcomwel/SearchAdminno/types";
+import BRANCHES from "../utils/branches";
 
 export { 
     endpoints, 
@@ -38,7 +39,10 @@ export {
     SearchAdminno,
 
     /* Captcha */
-    Captcha
+    Captcha,
+
+    /* Utils */
+    BRANCHES
 }
 
 export type {

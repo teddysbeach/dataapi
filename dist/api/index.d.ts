@@ -15,6 +15,7 @@ import { EmploymentInfoSession } from "./kcomwel/EmploymentInfoSession";
 import { EmploymentInfoSessionRequest, EmploymentInfoSessionResponse } from "./kcomwel/EmploymentInfoSession/types";
 import { SearchAdminno } from "./kcomwel/SearchAdminno";
 import { SearchAdminnoRequest, SearchAdminnoResponse } from "./kcomwel/SearchAdminno/types";
-export { endpoints, DataAPICrypto, LoginSessionSimpleHomeTax, TaxReturnResultTotalSession, LoginSessionSimpleKComwel, EmploymentInfoSession, ReportedCompensationSession, SearchAdminno, Captcha };
+import BRANCHES from "../utils/branches";
+export { endpoints, DataAPICrypto, LoginSessionSimpleHomeTax, TaxReturnResultTotalSession, LoginSessionSimpleKComwel, EmploymentInfoSession, ReportedCompensationSession, SearchAdminno, Captcha, BRANCHES };
 export type { LoginSessionSimpleHomeTaxRequest, LoginSessionSimpleHomeTaxResponse, TaxReturnResultTotalSessionRequest, TaxReturnResultTotalSessionResponse, LoginSessionSimpleKComwelRequest, LoginSessionSimpleKComwelResponse, EmploymentInfoSessionRequest, EmploymentInfoSessionResponse, ReportedCompensationSessionRequest, ReportedCompensationSessionResponse, SearchAdminnoRequest, SearchAdminnoResponse, CaptchaRequest, CaptchaResponse, CaptchaResponseData, };
 export default DataAPIRequest;
