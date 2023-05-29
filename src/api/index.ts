@@ -8,6 +8,9 @@ import { CaptchaRequest, CaptchaResponse, CaptchaResponseData } from "./global/C
 import { LoginSessionSimpleHomeTax } from "./hometax/LoginSessionSimpleHomeTax";
 import { LoginSessionSimpleHomeTaxRequest, LoginSessionSimpleHomeTaxResponse } from "./hometax/LoginSessionSimpleHomeTax/types";
 
+import { LoginSessionHomeTax } from "./hometax/LoginSessionHomeTax";
+import { LoginSessionHomeTaxRequest, LoginSessionHomeTaxResponse } from "./hometax/LoginSessionHomeTax/types";
+
 import { LoginSessionSimpleKComwel  } from "./kcomwel/LoginSessionSimpleKComwel";
 import { LoginSessionSimpleKComwelRequest, LoginSessionSimpleKComwelResponse } from "./kcomwel/LoginSessionSimpleKComwel/types";
 
@@ -30,6 +33,7 @@ export {
 
     /* Hometax */
     LoginSessionSimpleHomeTax,
+    LoginSessionHomeTax,
     TaxReturnResultTotalSession,
     
     /* Kcomwel */
@@ -49,6 +53,10 @@ export type {
     /* Hometax */
     LoginSessionSimpleHomeTaxRequest,
     LoginSessionSimpleHomeTaxResponse,
+
+    LoginSessionHomeTaxRequest,
+    LoginSessionHomeTaxResponse,
+
     TaxReturnResultTotalSessionRequest,
     TaxReturnResultTotalSessionResponse,
 
