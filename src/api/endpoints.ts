@@ -8,7 +8,7 @@ export const endpoints = {
     TaxReturnResultTotalSession:        '/scrap/common/hometax/TaxReturnResultTotalSession',                // 홈택스 세금신고결과 전체조회(로그인세션)
     TaxAccountantRetrieveRegSession:    '/scrap/common/hometax/TaxAccountantRetrieveRegSession',            // 홈택스 세무사 수임등록 조회(로그인세션)
     AcceptOfAppoinmtSoleSession:        '/scrap/common/hometax/AcceptOfAppoinmtSoleSession',                // 홈택스 사업자 수임동의 (로그인세션)
-    BusinessLicenseSession:          '/scrap/common/hometax/BusinessLicensePDFSession',                  // 홈택스 사업자등록증명원 조회(로그인세션)
+    BusinessLicenseSession:             '/scrap/common/hometax/BusinessLicensePDFSession',                  // 홈택스 사업자등록증명원 조회(로그인세션)
 
     // Kcomwel
     EmploymentInfoSession:              '/scrap/corpTax/kcomwel/EmploymentInfoSession',                     // 고용정보 근로자고용정보현황(로그인세션)
