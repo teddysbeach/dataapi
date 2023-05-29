@@ -17,11 +17,23 @@ import { LoginSessionSimpleKComwelRequest, LoginSessionSimpleKComwelResponse } f
 import { TaxReturnResultTotalSession } from "./hometax/TaxReturnResultTotalSession";
 import { TaxReturnResultTotalSessionRequest, TaxReturnResultTotalSessionResponse } from "./hometax/TaxReturnResultTotalSession/types";
 
+import { TaxAccountantRetrieveRegSession } from "./hometax/TaxAccountantRetrieveRegSession";
+import { TaxAccountantRetrieveRegSessionRequest, TaxAccountantRetrieveRegSessionResponse } from "./hometax/TaxAccountantRetrieveRegSession/types";
+
+import { AcceptOfAppoinmtSoleSession } from "./hometax/AcceptOfAppoinmtSoleSession";
+import { AcceptOfAppoinmtSoleSessionRequest, AcceptOfAppoinmtSoleSessionResponse } from "./hometax/AcceptOfAppoinmtSoleSession/types";
+
+import { BusinessLicenseXmlSession } from "./hometax/BusinessLicenseXmlSession";
+import { BusinessLicenseXmlSessionRequest, BusinessLicenseXmlSessionResponse } from "./hometax/BusinessLicenseXmlSession/types";
+
 import { ReportedCompensationSession } from "./kcomwel/ReportedCompensationSession";
 import { ReportedCompensationSessionRequest, ReportedCompensationSessionResponse } from "./kcomwel/ReportedCompensationSession/types";
 
 import { EmploymentInfoSession } from "./kcomwel/EmploymentInfoSession";
 import { EmploymentInfoSessionRequest, EmploymentInfoSessionResponse } from "./kcomwel/EmploymentInfoSession/types";
+
+import { ChargeableInsuranceInquirySession } from "./kcomwel/ChargeableInsuranceInquirySession";
+import { ChargeableInsuranceInquirySessionRequest, ChargeableInsuranceInquirySessionResponse } from "./kcomwel/ChargeableInsuranceInquirySession/types";
 
 import { SearchAdminno } from "./kcomwel/SearchAdminno";
 import { SearchAdminnoRequest, SearchAdminnoResponse } from "./kcomwel/SearchAdminno/types";
@@ -35,11 +47,15 @@ export {
     LoginSessionSimpleHomeTax,
     LoginSessionHomeTax,
     TaxReturnResultTotalSession,
+    TaxAccountantRetrieveRegSession,
+    AcceptOfAppoinmtSoleSession,
+    BusinessLicenseXmlSession,
     
     /* Kcomwel */
-    LoginSessionSimpleKComwel,
     EmploymentInfoSession,
+    LoginSessionSimpleKComwel,
     ReportedCompensationSession,
+    ChargeableInsuranceInquirySession,
     SearchAdminno,
 
     /* Captcha */
@@ -60,13 +76,28 @@ export type {
     TaxReturnResultTotalSessionRequest,
     TaxReturnResultTotalSessionResponse,
 
+    TaxAccountantRetrieveRegSessionRequest,
+    TaxAccountantRetrieveRegSessionResponse,
+
+    AcceptOfAppoinmtSoleSessionRequest,
+    AcceptOfAppoinmtSoleSessionResponse,
+
+    BusinessLicenseXmlSessionRequest,
+    BusinessLicenseXmlSessionResponse,
+
     /* Kcomwel */
     LoginSessionSimpleKComwelRequest,
     LoginSessionSimpleKComwelResponse,
+
     EmploymentInfoSessionRequest,
     EmploymentInfoSessionResponse,
+
     ReportedCompensationSessionRequest,
     ReportedCompensationSessionResponse,
+
+    ChargeableInsuranceInquirySessionRequest,
+    ChargeableInsuranceInquirySessionResponse,
+
     SearchAdminnoRequest,
     SearchAdminnoResponse,
 
