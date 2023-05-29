@@ -23,8 +23,8 @@ import { TaxAccountantRetrieveRegSessionRequest, TaxAccountantRetrieveRegSession
 import { AcceptOfAppoinmtSoleSession } from "./hometax/AcceptOfAppoinmtSoleSession";
 import { AcceptOfAppoinmtSoleSessionRequest, AcceptOfAppoinmtSoleSessionResponse } from "./hometax/AcceptOfAppoinmtSoleSession/types";
 
-import { BusinessLicenseXmlSession } from "./hometax/BusinessLicenseXmlSession";
-import { BusinessLicenseXmlSessionRequest, BusinessLicenseXmlSessionResponse } from "./hometax/BusinessLicenseXmlSession/types";
+import { BusinessLicenseXmlSession } from "./hometax/BusinessLicensePDFSession";
+import { BusinessLicenseXmlSessionRequest, BusinessLicenseXmlSessionResponse } from "./hometax/BusinessLicensePDFSession/types";
 
 import { ReportedCompensationSession } from "./kcomwel/ReportedCompensationSession";
 import { ReportedCompensationSessionRequest, ReportedCompensationSessionResponse } from "./kcomwel/ReportedCompensationSession/types";
