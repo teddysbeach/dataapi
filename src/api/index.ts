@@ -23,8 +23,8 @@ import { TaxAccountantRetrieveRegSessionRequest, TaxAccountantRetrieveRegSession
 import { AcceptOfAppoinmtSoleSession } from "./hometax/AcceptOfAppoinmtSoleSession";
 import { AcceptOfAppoinmtSoleSessionRequest, AcceptOfAppoinmtSoleSessionResponse } from "./hometax/AcceptOfAppoinmtSoleSession/types";
 
-import { BusinessLicensePDFSession } from "./hometax/BusinessLicensePDFSession";
-import { BusinessLicensePDFSessionRequest, BusinessLicensePDFSessionResponse } from "./hometax/BusinessLicensePDFSession/types";
+import { BusinessLicenseSession } from "./hometax/BusinessLicenseSession";
+import { BusinessLicenseSessionRequest, BusinessLicenseSessionResponse } from "./hometax/BusinessLicenseSession/types";
 
 import { ReportedCompensationSession } from "./kcomwel/ReportedCompensationSession";
 import { ReportedCompensationSessionRequest, ReportedCompensationSessionResponse } from "./kcomwel/ReportedCompensationSession/types";
@@ -49,7 +49,7 @@ export {
     TaxReturnResultTotalSession,
     TaxAccountantRetrieveRegSession,
     AcceptOfAppoinmtSoleSession,
-    BusinessLicensePDFSession,
+    BusinessLicenseSession,
     
     /* Kcomwel */
     EmploymentInfoSession,
@@ -82,8 +82,8 @@ export type {
     AcceptOfAppoinmtSoleSessionRequest,
     AcceptOfAppoinmtSoleSessionResponse,
 
-    BusinessLicensePDFSessionRequest,
-    BusinessLicensePDFSessionResponse,
+    BusinessLicenseSessionRequest,
+    BusinessLicenseSessionResponse,
 
     /* Kcomwel */
     LoginSessionSimpleKComwelRequest,
