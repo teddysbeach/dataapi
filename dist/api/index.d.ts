@@ -15,8 +15,8 @@ import { TaxAccountantRetrieveRegSession } from "./hometax/TaxAccountantRetrieve
 import { TaxAccountantRetrieveRegSessionRequest, TaxAccountantRetrieveRegSessionResponse } from "./hometax/TaxAccountantRetrieveRegSession/types";
 import { AcceptOfAppoinmtSoleSession } from "./hometax/AcceptOfAppoinmtSoleSession";
 import { AcceptOfAppoinmtSoleSessionRequest, AcceptOfAppoinmtSoleSessionResponse } from "./hometax/AcceptOfAppoinmtSoleSession/types";
-import { BusinessLicenseXmlSession } from "./hometax/BusinessLicenseXmlSession";
-import { BusinessLicenseXmlSessionRequest, BusinessLicenseXmlSessionResponse } from "./hometax/BusinessLicenseXmlSession/types";
+import { BusinessLicensePDFSession } from "./hometax/BusinessLicensePDFSession";
+import { BusinessLicensePDFSessionRequest, BusinessLicensePDFSessionResponse } from "./hometax/BusinessLicensePDFSession/types";
 import { ReportedCompensationSession } from "./kcomwel/ReportedCompensationSession";
 import { ReportedCompensationSessionRequest, ReportedCompensationSessionResponse } from "./kcomwel/ReportedCompensationSession/types";
 import { EmploymentInfoSession } from "./kcomwel/EmploymentInfoSession";
@@ -26,6 +26,6 @@ import { ChargeableInsuranceInquirySessionRequest, ChargeableInsuranceInquirySes
 import { SearchAdminno } from "./kcomwel/SearchAdminno";
 import { SearchAdminnoRequest, SearchAdminnoResponse } from "./kcomwel/SearchAdminno/types";
 import BRANCHES from "../utils/branches";
-export { endpoints, DataAPICrypto, LoginSessionSimpleHomeTax, LoginSessionHomeTax, TaxReturnResultTotalSession, TaxAccountantRetrieveRegSession, AcceptOfAppoinmtSoleSession, BusinessLicenseXmlSession, EmploymentInfoSession, LoginSessionSimpleKComwel, ReportedCompensationSession, ChargeableInsuranceInquirySession, SearchAdminno, Captcha, BRANCHES };
-export type { LoginSessionSimpleHomeTaxRequest, LoginSessionSimpleHomeTaxResponse, LoginSessionHomeTaxRequest, LoginSessionHomeTaxResponse, TaxReturnResultTotalSessionRequest, TaxReturnResultTotalSessionResponse, TaxAccountantRetrieveRegSessionRequest, TaxAccountantRetrieveRegSessionResponse, AcceptOfAppoinmtSoleSessionRequest, AcceptOfAppoinmtSoleSessionResponse, BusinessLicenseXmlSessionRequest, BusinessLicenseXmlSessionResponse, LoginSessionSimpleKComwelRequest, LoginSessionSimpleKComwelResponse, EmploymentInfoSessionRequest, EmploymentInfoSessionResponse, ReportedCompensationSessionRequest, ReportedCompensationSessionResponse, ChargeableInsuranceInquirySessionRequest, ChargeableInsuranceInquirySessionResponse, SearchAdminnoRequest, SearchAdminnoResponse, CaptchaRequest, CaptchaResponse, CaptchaResponseData, };
+export { endpoints, DataAPICrypto, LoginSessionSimpleHomeTax, LoginSessionHomeTax, TaxReturnResultTotalSession, TaxAccountantRetrieveRegSession, AcceptOfAppoinmtSoleSession, BusinessLicensePDFSession, EmploymentInfoSession, LoginSessionSimpleKComwel, ReportedCompensationSession, ChargeableInsuranceInquirySession, SearchAdminno, Captcha, BRANCHES };
+export type { LoginSessionSimpleHomeTaxRequest, LoginSessionSimpleHomeTaxResponse, LoginSessionHomeTaxRequest, LoginSessionHomeTaxResponse, TaxReturnResultTotalSessionRequest, TaxReturnResultTotalSessionResponse, TaxAccountantRetrieveRegSessionRequest, TaxAccountantRetrieveRegSessionResponse, AcceptOfAppoinmtSoleSessionRequest, AcceptOfAppoinmtSoleSessionResponse, BusinessLicensePDFSessionRequest, BusinessLicensePDFSessionResponse, LoginSessionSimpleKComwelRequest, LoginSessionSimpleKComwelResponse, EmploymentInfoSessionRequest, EmploymentInfoSessionResponse, ReportedCompensationSessionRequest, ReportedCompensationSessionResponse, ChargeableInsuranceInquirySessionRequest, ChargeableInsuranceInquirySessionResponse, SearchAdminnoRequest, SearchAdminnoResponse, CaptchaRequest, CaptchaResponse, CaptchaResponseData, };
 export default DataAPIRequest;

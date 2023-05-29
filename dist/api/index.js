@@ -3,7 +3,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.BRANCHES = exports.Captcha = exports.SearchAdminno = exports.ChargeableInsuranceInquirySession = exports.ReportedCompensationSession = exports.LoginSessionSimpleKComwel = exports.EmploymentInfoSession = exports.BusinessLicenseXmlSession = exports.AcceptOfAppoinmtSoleSession = exports.TaxAccountantRetrieveRegSession = exports.TaxReturnResultTotalSession = exports.LoginSessionHomeTax = exports.LoginSessionSimpleHomeTax = exports.DataAPICrypto = exports.endpoints = void 0;
+exports.BRANCHES = exports.Captcha = exports.SearchAdminno = exports.ChargeableInsuranceInquirySession = exports.ReportedCompensationSession = exports.LoginSessionSimpleKComwel = exports.EmploymentInfoSession = exports.BusinessLicensePDFSession = exports.AcceptOfAppoinmtSoleSession = exports.TaxAccountantRetrieveRegSession = exports.TaxReturnResultTotalSession = exports.LoginSessionHomeTax = exports.LoginSessionSimpleHomeTax = exports.DataAPICrypto = exports.endpoints = void 0;
 const endpoints_1 = require("./endpoints");
 Object.defineProperty(exports, "endpoints", { enumerable: true, get: function () { return endpoints_1.endpoints; } });
 const crypt_1 = require("../utils/crypt");
@@ -23,8 +23,8 @@ const TaxAccountantRetrieveRegSession_1 = require("./hometax/TaxAccountantRetrie
 Object.defineProperty(exports, "TaxAccountantRetrieveRegSession", { enumerable: true, get: function () { return TaxAccountantRetrieveRegSession_1.TaxAccountantRetrieveRegSession; } });
 const AcceptOfAppoinmtSoleSession_1 = require("./hometax/AcceptOfAppoinmtSoleSession");
 Object.defineProperty(exports, "AcceptOfAppoinmtSoleSession", { enumerable: true, get: function () { return AcceptOfAppoinmtSoleSession_1.AcceptOfAppoinmtSoleSession; } });
-const BusinessLicenseXmlSession_1 = require("./hometax/BusinessLicenseXmlSession");
-Object.defineProperty(exports, "BusinessLicenseXmlSession", { enumerable: true, get: function () { return BusinessLicenseXmlSession_1.BusinessLicenseXmlSession; } });
+const BusinessLicensePDFSession_1 = require("./hometax/BusinessLicensePDFSession");
+Object.defineProperty(exports, "BusinessLicensePDFSession", { enumerable: true, get: function () { return BusinessLicensePDFSession_1.BusinessLicensePDFSession; } });
 const ReportedCompensationSession_1 = require("./kcomwel/ReportedCompensationSession");
 Object.defineProperty(exports, "ReportedCompensationSession", { enumerable: true, get: function () { return ReportedCompensationSession_1.ReportedCompensationSession; } });
 const EmploymentInfoSession_1 = require("./kcomwel/EmploymentInfoSession");

@@ -10,7 +10,7 @@ exports.endpoints = {
     TaxReturnResultTotalSession: '/scrap/common/hometax/TaxReturnResultTotalSession',
     TaxAccountantRetrieveRegSession: '/scrap/common/hometax/TaxAccountantRetrieveRegSession',
     AcceptOfAppoinmtSoleSession: '/scrap/common/hometax/AcceptOfAppoinmtSoleSession',
-    BusinessLicenseXmlSession: '/scrap/common/hometax/BusinessLicenseXmlSession',
+    BusinessLicensePDFSession: '/scrap/common/hometax/BusinessLicensePDFSession',
     // Kcomwel
     EmploymentInfoSession: '/scrap/corpTax/kcomwel/EmploymentInfoSession',
     LoginSessionSimpleKComwel: '/scrap/corpTax/kcomwel/LoginSessionSimple',

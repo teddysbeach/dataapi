@@ -5,7 +5,7 @@ export declare const endpoints: {
     TaxReturnResultTotalSession: string;
     TaxAccountantRetrieveRegSession: string;
     AcceptOfAppoinmtSoleSession: string;
-    BusinessLicenseXmlSession: string;
+    BusinessLicensePDFSession: string;
     EmploymentInfoSession: string;
     LoginSessionSimpleKComwel: string;
     ReportedCompensationSession: string;
